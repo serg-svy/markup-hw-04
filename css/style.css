@@ -437,6 +437,28 @@ body {
   flex-wrap: wrap;
   margin-right: calc(-1 * 30px);
 }
+.client-link {
+  color: var(--icon-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+}
+.client-logo {
+  fill: currentColor;
+}
+.clients-item {
+  flex-basis: calc(100% / 6 - 30px);
+  margin-right: 30px;
+}
+.client-link:hover,
+.client-link:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
 /* Footer */
 
 .footer-section {
